@@ -85,10 +85,3 @@ print("""Привет, это программа
 0 - exit
 """)
 
-# для проверки гит.
-
-git = 56
-r = 5
-print(git + r)
-
-TEST_CHANGE_$(date +%s)
