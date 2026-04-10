@@ -1,0 +1,88 @@
+>>> print("Hello, world")
+Hello, world
+>>> print(1,8,"fjiww")
+1 8 fjiww
+>>> # HW 1.0
+>>> print("привет мир, это моя первая дз")
+привет мир, это моя первая дз
+>>> print("привет мир, это моя первая дз"
+...
+... print("привет мир, это моя первая дз)
+  File "<stdin>", line 3
+    print("привет мир, это моя первая дз)
+          ^
+SyntaxError: unterminated string literal (detected at line 3)
+>>> print("привет мир, это моя первая дз"
+...
+... )
+привет мир, это моя первая дз
+>>> prt("привет мир, это моя первая дз")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'prt' is not defined
+>>> prit("привет мир, это моя первая дз")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'prit' is not defined. Did you mean: 'print'?
+>>> print 123
+  File "<stdin>", line 1
+    print 123
+    ^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+>>> ()
+()
+>>> print(123)
+123
+>>> print(123
+... )
+123
+>>> print123)
+  File "<stdin>", line 1
+    print123)
+            ^
+SyntaxError: unmatched ')'
+>>> print 123)
+  File "<stdin>", line 1
+    print 123)
+             ^
+SyntaxError: unmatched ')'
+>>> print(123)
+123
+>>> print     (    12343   )
+12343
+>>> print(1,2,3,4,5,)
+1 2 3 4 5
+>>> print(1, 2, 2. 4 ,5)
+  File "<stdin>", line 1
+    print(1, 2, 2. 4 ,5)
+                ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> ,
+  File "<stdin>", line 1
+    ,
+    ^
+SyntaxError: invalid syntax
+>>> print("hello/nlizza")
+hello/nlizza
+>>> >> print("hell\nlizza")
+  File "<stdin>", line 1
+    >> print("hell\nlizza")
+    ^^
+SyntaxError: invalid syntax
+>>> >> print("hello\nLizza")
+  File "<stdin>", line 1
+    >> print("hello\nLizza")
+    ^^
+SyntaxError: invalid syntax
+>>> print("hello/nlizza")
+hello/nlizza
+>>> print("hello\nlizza")
+hello
+lizza
+>>> print("\\\\\")
+  File "<stdin>", line 1
+    print("\\\\\")
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print("\\")
+\
